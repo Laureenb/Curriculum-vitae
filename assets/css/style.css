@@ -1,0 +1,392 @@
+body {
+	background-color: none;
+    overflow: auto;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* --- Partie droite --- */
+
+#component-experience {
+    width: 66%;
+    height: 100%;
+    float: right;
+    background-color: none;
+    margin-top: 2%;
+    margin-right: 2%;
+    padding-bottom: 2%;
+    font-family: Avantgarde, sans-serif;
+    color: #3E3C3D;
+    border: 1px solid black;
+}
+
+h1 {
+    margin-top: 5%;
+    margin-left: 3.5%;
+    line-height: 8pt;
+    padding : 0 0 15px 0;
+    font-weight: lighter;
+}
+
+hr {
+    width: 94%;
+    height: 1px;
+    background-color: black;
+    border: none;
+    margin-bottom: 3%;
+}
+
+.text {
+    padding-top: 1%;
+    margin-left: 4%;
+    line-height: 8pt;
+    font-family: Arial Narrow, sans-serif;
+    color: #717070;
+}
+
+#component-formation {
+    width: 66%;
+    height: 100%;
+    float: right;
+    background-color: none;
+    border: 1px solid black;
+    margin-top: 6%;
+    margin-right: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.stages {
+    line-height: 0pt;
+    margin-left: 5%;
+    margin-top: 7%;
+    font-family: Avantgarde, sans-serif;
+    color: #292B2B;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+h4 {
+    color: #717070;
+}
+
+.component-expo {
+    margin-top: 7%;
+}
+
+/* --- Fin partie droite --- */
+
+/* --- Partie gauche --- */
+
+#nom {
+    width: 22%;
+    height: 100%;
+    float: left;
+    background-color: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 13px solid black;
+}
+
+.profil {
+    display: block;
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    background: url(../img/pic.png) no-repeat;
+    background-size: 108%;
+    background-position: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prenom {
+	width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+}
+
+.web {
+	width: 100%;
+	text-align: center;
+	margin-top: 10%;
+	font-family: Andale Mono, monospace;
+	font-size: 18px;
+	color: #F00040;
+}
+
+.component-profil {
+	width: 24%;
+    height: 100%;
+    float: left;
+    background-color: black;
+    margin-top: 2%;
+    padding-bottom: 5%;
+    margin-left: 2%;
+}
+
+.component-profil-title {
+	margin-top: 20%;
+    margin-bottom: 20%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.component-profil-sous-title {
+	font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 20pt;
+}
+
+.component-profil-programme {
+	margin-top: 20%;
+    margin-bottom: 20%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.component-langues {
+	width: 22%;
+    height: 222%;
+    float: left;
+    position: absolute;
+    background-color: none;
+    margin-top: 148%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 13px solid black;
+}
+
+.component-langues-title {
+	margin-top: 20%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.component-jury {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.component-citation {
+    padding-top: 15%;
+    text-align: center;
+    line-height: 40pt;
+    font-family: Arial Narrow, sans-serif;
+    color: #717070;
+    font-size: ;
+    font-size: 20px;
+}
+
+.component-profil-uppercase {
+    font-family: Arial Narrow, sans-serif;
+    color: #717070;
+    line-height: 22pt;
+    margin-top: 15%;
+    text-align: center;
+
+}
+
+.h3 {
+    line-height: 20pt;
+    margin-top: 10%;
+    text-align: center;
+    font-family: Arial Narrow, sans-serif;
+    color: #F00040;
+}
+
+.component-profil-date {
+    text-align: center;
+    margin-left: 4%;
+    line-height: 8pt;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 17px;
+}
+
+.icone {
+    text-align: center;
+    margin-top: 22%;
+}
+
+/* --- Partie gauche --- */
+
+/* --- PUCES --- */
+
+.puce-container {
+	padding-top: 0%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 25%;
+}
+
+.puce {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.puce-blanche {
+  background: white;
+}
+
+.puce-noire {
+  background: black;
+}
+
+.arrondi-blanc{
+  border: 2px solid white;
+}
+
+.arrondi-noir{
+  border: 2px solid black;
+}
+
+/* --- FIN PUCES --- */
+
+h3 {
+    color: #F00040;
+}
+
+ul {
+    line-height: 14pt;
+    margin-right: 4%;
+    text-align: justify;
+}
+
+h5 {
+    color: black;
+}
+
+a {
+	text-decoration: none;
+    padding-left: 4%;
+    font-size: 15px;
+    font-family: Arial Narrow, sans-serif;
+    color: #717070;
+}
+
+
+/* ---- Media Queries---- */
+
+/*Affichage GSM portrait*/
+@media screen and (max-width: 479px)
+{
+        
+        #nom {
+        width: 90%; 
+        height: 100%;
+    }
+    
+    .profil {
+        width: 100%;
+        border-radius: 0%;
+        background-size: 90%;
+        background-position: center;
+    }
+    
+    #component-experience {
+        width: 95%;    
+    } 
+    
+    .text h2 {
+        line-height: 20pt;
+    }
+    
+    .component-langues {
+        margin-top: 1000%;
+        width: 85%;
+    }
+    
+}
+
+/*Affichage GSM paysage et tablette portrait*/
+@media screen and (min-width: 480px) and (max-width: 959px)
+{
+    
+    #nom {
+        border: 7.5px solid black;
+    }
+
+    .profil {
+        width: 99px;
+        height:99px;
+        background-position: center;
+        margin-top: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .prenom {
+        font-size:24px;
+    }
+
+    .web {
+        font-size: 8px;
+        overflow:hidden;
+        white-space: nowrap;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size:15px;
+    }
+
+    .text h3 {
+        font-size:12px;
+    }
+
+    li {
+        font-size: 13px;
+        list-style-type: none;
+        margin-left:-13%;
+
+    }
+    
+
+}
+
+/*Affichage tablette paysage et ordi petit à moyen*/
+/*@media screen and (min-width: 960px) and (max-width: 1280px)
+{
+    
+}*/
+
+/*Affichage ordi moyen à grand*/
+/*@media screen and (min-width: 1281px)
+{
+  
+}
+*/
